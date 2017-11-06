@@ -1,3 +1,5 @@
+var myFunction = function() {
+
 var arr = [];
 
 // 배열의 길이가 6일때까지 반복 
@@ -7,11 +9,11 @@ while (arr.length != 6) {
 
   if (arr.indexOf(ran) === -1) {
     arr.push(ran);
-  } else {
-  //  console.log("숫자가 중복됩니다.");
-  }
+  } 
 }
 arr.sort(function(a,b) {
   return a - b;
 });
-console.log(arr);
+
+document.getElementById("lotto").innerHTML = arr;
+}
