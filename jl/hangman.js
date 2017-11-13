@@ -14,7 +14,7 @@ for (var i = 0; i < ranword.length; i++) {
 }
 
 // 맞힐 수록 _ 수가 줄어들어야 함 
-var remainingLetters = word.length;
+var remainingLetters = ranword.length;
 
 // 게임의 메인 반복문
 while (remainingLetters > 0) {
