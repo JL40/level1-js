@@ -40,3 +40,4 @@ if (guess === null) {
 
 alert(answerarr.join(" "));
 alert("Good job! The answer is " + ranword + "!");
+
